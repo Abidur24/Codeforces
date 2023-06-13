@@ -1,0 +1,35 @@
+// In the name of Allah.
+// We're nothing and you're everything.
+// Ya MAALIK-UL-MULK!!!
+/*
+
+Indeed, my prayer, my rites of sacrifice,
+my living and my dying are for Allah, Lord of the worlds
+
+ */
+#include<bits/stdc++.h>
+#define ll long long
+#define f for
+#define cndl cout<<endl
+using namespace std;
+int main()
+{
+    ll int t;
+    cin>>t;
+    while(t--)
+    {
+    ll int n;
+    cin>>n;
+    ll int sum=0,temp=0,mod=0;
+    temp=n;
+    while(temp>9)
+    {
+        mod=temp%10;
+        sum+=(temp-mod);
+        temp=mod+temp/10;
+    }
+    sum+=temp;
+    cout<<sum<<endl;
+    }
+    return 0;
+}
