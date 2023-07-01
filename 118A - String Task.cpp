@@ -20,7 +20,7 @@ int main() {
   cout<<endl;
   return 0;
 }
-
+ 
 /* Here the task of the problem is: 
 - Firstly to transform the string into lowercase ,
 I used transform function in line 9 to transform it into lowercase;
